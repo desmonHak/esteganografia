@@ -1,2 +1,2 @@
 # esteganografia
-un pequenoo programa echo en el lenguaje C++ capaz de ocultarpequenos mensajes en imagenes .png
+un pequenoo programa echo en el lenguaje C++ capaz de ocultar pequenos mensajes en imagenes .jpg
