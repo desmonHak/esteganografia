@@ -65,7 +65,6 @@ int main(){
         while( getline(MyFile, line) ){
 
             for (int o = 0, e = 0; o <= line.size(); i++){
-                //if (i == final_cabezera){ break;}
                 if (i >= cabezera_IMG && estado_write == true){
                     cout << "cambiando el valor hexadecimal: " << _hex((int)line[o]) << " por el caracter: " << data_inssert[e] << " con valor hexadecimal: " << _hex((int)data_inssert[e]) << endl;
                     line[o] = data_inssert[e];
@@ -105,8 +104,6 @@ int main(){
     cout << "longitu final: "<< longitud_total << endl;
     cout << ____FILE_defined << " " << __amd64__  << " " << __FILE__  << " " << __DATE__  << " " << __TIME__  << " " << __LINE__ << endl;
 
-    
-    //cout << "salida: " << "0x"+_hex((int)line[0]) << endl;
     cout << "-----------------------------------------" << "\n\n";
     cout << "=========================================" << endl;
     cout << Data_output << endl;
