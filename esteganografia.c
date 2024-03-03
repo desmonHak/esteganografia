@@ -202,8 +202,7 @@ int main()
     flush();
     
     // variable donde almacenar los datos a esconder
-    uint8_t data[200];
-    data = "Hola Mundo, aqui tito desmon, si encontraste esto enorabuena, has roto mi algoritmo de esteganografia : 'v";
+    uint8_t data[] = "Hola Mundo, aqui tito desmon, si encontraste esto enorabuena, has roto mi algoritmo de esteganografia : 'v";
     printf("[!] Datos a introducir: ");
     //scanf("%[^\n]s", data);
     //puts("");
